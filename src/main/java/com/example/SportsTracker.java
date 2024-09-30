@@ -17,21 +17,23 @@ public class SportsTracker {
 
     // Method to display all activities
     public void viewActivities() {
+        System.out.println();
         if (activities.isEmpty()) {
             System.out.println("No activities logged yet.");
         } else {
             System.out.println("Logged activities:");
             for (Activity activity : activities) {
-                System.out.println(activity.name + " - " + activity.minutes + " minutes");
+                System.out.println(activity.getName() + " - " + activity.getMinutes() + " minutes");
             }
         }
     }
 
     // Method to calculate total time spent on sports
     public void calculateTotalTime() {
+        System.out.println();
         int totalMinutes = 0;
         for (Activity activity : activities) {
-            totalMinutes += activity.minutes;
+            totalMinutes += activity.getMinutes();
         }
         System.out.println("Total time spent on sports this week: " + totalMinutes + " minutes.");
     }
