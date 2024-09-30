@@ -1,12 +1,14 @@
 pipeline {
     agent any
-
+    
     environment {
         DOCKERHUB_CREDENTIALS_ID = 'f2173128-83c0-4591-be81-5972b42f1982'
         DOCKERHUB_REPO = 'jafestro/sports_tracker'
         DOCKER_IMAGE_TAG = 'ver1'
     }
-
+    tools {
+        maven 'Maven'
+    }
     stages {
         stage('Checkout') {
             steps {
