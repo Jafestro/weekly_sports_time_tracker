@@ -62,7 +62,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>Main</mainClass> <!-- Replace with your main class -->
+                            <mainClass>com.example.Main</mainClass> <!-- Replace with your main class -->
                         </manifest>
                     </archive>
                 </configuration>
