@@ -5,6 +5,10 @@ import java.util.ArrayList;
 public class SportsTracker {
     private final ArrayList<Activity> activities = new ArrayList<>();
 
+    public ArrayList<Activity> getActivities() {
+        return activities;
+    }
+
     // Method to add a new activity
     public void logActivity(String name, int minutes) {
         activities.add(new Activity(name, minutes));
