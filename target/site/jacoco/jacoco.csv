@@ -1,0 +1,4 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+weekly_sports_time_tracker,com.example,Activity,0,15,0,0,0,6,0,3,0,3
+weekly_sports_time_tracker,com.example,SportsTracker,59,26,6,0,15,6,5,3,2,3
+weekly_sports_time_tracker,com.example,Main,85,0,7,0,30,0,8,0,3,0
